@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "Z5U1SfXVnWan7v3DUp7k0Aqgo0FlYUCmuAAFvv+qb8k=",
+  "Source": "VehiculosAPI",
+  "BasePath": "_content/VehiculosAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "VehiculosAPI\\wwwroot",
+      "Source": "VehiculosAPI",
+      "ContentRoot": "C:\\Users\\juanp\\OneDrive\\Documentos\\backendVS\\activityApi\\VehiculosAPI\\wwwroot\\",
+      "BasePath": "_content/VehiculosAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\juanp\\OneDrive\\Documentos\\backendVS\\activityApi\\VehiculosAPI\\wwwroot\\Files\\2954132.jpg",
+      "SourceId": "VehiculosAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\juanp\\OneDrive\\Documentos\\backendVS\\activityApi\\VehiculosAPI\\wwwroot\\",
+      "BasePath": "_content/VehiculosAPI",
+      "RelativePath": "Files/2954132.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\2954132.jpg"
+    }
+  ]
+}
