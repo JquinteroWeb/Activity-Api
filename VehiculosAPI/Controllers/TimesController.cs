@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using VehiculosAPI.Data;
@@ -9,6 +11,7 @@ namespace VehiculosAPI.Controllers
 {
     [ApiController]
     [Route("api/Times")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Policy = "Admin")]
     public class TimesController : Controller
     {
         private readonly ILogger<TimesController> logger;
